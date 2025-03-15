@@ -4,4 +4,99 @@
 body {
   font-family: sans-serif;
   box-sizing: border-box;
+  height: 100vh;
+}
+header {
+  background-color: #f2f5f6;
+}
+.logo-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo-part img {
+  width: 158.65px;
+  height: 24px;
+}
+.logo-part ul {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.logo-part li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.logo-part li:hover {
+  color: #043a53;
+}
+.logo-part button {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.logo-part button:hover {
+  background: #043a53;
+  color: white;
+}
+.logo-part button:active {
+  background: #043a53;
+  color: white;
+}
+.hero-part {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 50px;
+  padding: 50px;
+  align-content: center;
+}
+.hero-part img {
+  width: 197.42px;
+  height: 340px;
+}
+.hero-part .text {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  line-height: 1;
+  height: 100%;
+}
+.hero-part h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+.hero-part .btns {
+  display: flex;
+  gap: 12px;
+}
+.hero-part button {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-part .btn2 img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.hero-part button:hover {
+  background-color: #043a53;
+  color: white;
+}
+.hero-part button:active {
+  background-color: #043a53;
+  color: white;
 }
