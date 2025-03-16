@@ -36,9 +36,14 @@ header {
   cursor: pointer;
   transition: color 0.3s;
 }
-
-.logo-part li:hover {
+.logo-part li a {
+  text-decoration: none;
+  color: black;
+}
+.logo-part li a:hover {
   color: #043a53;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out, text-decoration 1s ease-in-out;
 }
 
 .logo-part button {
