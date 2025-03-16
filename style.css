@@ -69,7 +69,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 100px auto;
+  margin: 50px auto;
   padding: 50px;
   width: 90%;
   max-width: 1200px;
@@ -279,3 +279,58 @@ header {
   }
 }
 /* Trusted-Brands */
+
+/* video Section */
+.video-section {
+  padding: 100px 100px 0 100px;
+  margin: 50px auto;
+  background-color: #043a53;
+  position: relative; /* Make the container a positioning context */
+  display: inline-block; /* Ensure the container wraps around the image */
+}
+.vid-div-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.vid-div-container h1:first-child {
+  color: white;
+  font-size: xx-large;
+}
+.vid-div-container h1:last-child {
+  color: #f0b73f;
+  font-size: xx-large;
+}
+.vid-div-container p {
+  color: white;
+  width: 40%;
+}
+
+.video-section img {
+  margin-bottom: -5px;
+  position: relative;
+  z-index: 2;
+  max-width: 100%;
+}
+
+.ellipse {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  cursor: pointer;
+}
+
+.ellipse img {
+  margin-right: -5px;
+}
+/* video Section */
