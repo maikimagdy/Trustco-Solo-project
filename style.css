@@ -1,107 +1,117 @@
 :root {
   --primary-color: #007bff;
 }
+
 body {
   font-family: sans-serif;
   box-sizing: border-box;
   height: 100vh;
+  margin: 0;
 }
+
 header {
   background-color: #f2f5f6;
 }
+
 .logo-part {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 10px 20px;
 }
+
 .logo-part img {
   width: 158.65px;
   height: 24px;
 }
+
 .logo-part ul {
   display: flex;
-  justify-items: center;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
 }
+
 .logo-part li {
   list-style: none;
   cursor: pointer;
+  transition: color 0.3s;
 }
 
 .logo-part li:hover {
   color: #043a53;
 }
+
 .logo-part button {
   background-color: white;
   border-radius: 20px;
   padding: 10px;
   cursor: pointer;
   width: 100px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.logo-part button:hover {
-  background: #043a53;
-  color: white;
-}
+.logo-part button:hover,
 .logo-part button:active {
   background: #043a53;
   color: white;
 }
+
 .hero-part {
   display: flex;
   justify-content: space-between;
-  margin: 100px 50px;
+  align-items: center;
+  margin: 100px auto;
   padding: 50px;
-  align-content: center;
+  width: 90%;
+  max-width: 1200px;
 }
+
 .hero-part img {
-  width: 197.42px;
-  height: 340px;
+  width: 250px;
+  height: 400px;
 }
+
 .hero-part .text {
   text-align: start;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   flex-direction: column;
-  padding: 50px;
-  line-height: 1;
-  height: 100%;
+  align-items: center;
+  gap: 20px;
+  padding: 0 20px;
+  line-height: 1.5;
 }
+
 .hero-part h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
+
 .hero-part .btns {
   display: flex;
   gap: 12px;
 }
+
 .hero-part button {
   cursor: pointer;
   border-radius: 20px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
 }
-
+.hero-part .btn2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .hero-part .btn2 img {
   width: 25px;
   height: 25px;
-  margin-right: 5px;
 }
-.hero-part button:hover {
-  background-color: #043a53;
-  color: white;
-}
+
+.hero-part button:hover,
 .hero-part button:active {
   background-color: #043a53;
   color: white;
 }
-<<<<<<< Updated upstream
-=======
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
@@ -181,4 +191,3 @@ header {
 }
 
 /* Trusted-Brands */
->>>>>>> Stashed changes
