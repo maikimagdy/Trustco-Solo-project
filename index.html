@@ -13,19 +13,21 @@
         <div>
           <img src="./assets/Logo.png" alt="" />
         </div>
-        <nav>
-          <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <div>
-          <button class="btn1">Login</button>
-          <button class="btn2">SignUp</button>
-        </div>
+      </img>
+      <nav >
+            <ul class="nav-links">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="buttons">
+            <button class="btn1">Login</button>
+            <button class="btn2">SignUp</button>
+          </div>
+          <img src="./assets/Menu.png" class="hamburger" onclick="toggleMenu()">
       </section>
       <section class="hero-part">
         <div>
@@ -80,5 +82,13 @@
     <!-- Footer -->
     <footer>Footer Part</footer>
     <!-- Footer -->
+
+    <script>
+      // JavaScript to toggle the menu
+      function toggleMenu() {
+        const navContainer = document.querySelector(".nav-links");
+        navContainer.classList.toggle("active");
+      }
+    </script>
   </body>
-</html>
+  </html>

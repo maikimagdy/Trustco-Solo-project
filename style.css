@@ -24,7 +24,11 @@ header {
   width: 158.65px;
   height: 24px;
 }
-
+.logo-part .hamburger {
+  width: 30px;
+  cursor: pointer;
+  display: none;
+}
 .logo-part ul {
   display: flex;
   justify-content: center;
@@ -121,6 +125,12 @@ header {
 /* Responsive Styles */
 @media (max-width: 1024px) {
   /* Tablets */
+  .logo-part .hamburger {
+    display: block;
+  }
+  .logo-part .buttons {
+    display: none;
+  }
   .hero-part {
     flex-direction: column;
     align-items: center;
@@ -144,15 +154,49 @@ header {
 }
 
 @media (max-width: 768px) {
-  /* Mobile Devices */
   .logo-part {
-    flex-direction: column;
     gap: 10px;
+    align-items: center;
+    position: relative;
   }
 
   .logo-part ul {
+    display: none;
+    flex-direction: column;
     gap: 10px;
     padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f2f5f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  .logo-part .hamburger {
+    display: block;
+  }
+
+  .logo-part .nav-links.active {
+    display: flex;
+  }
+
+  .logo-part .buttons {
+    display: none;
+  }
+
+  .logo-part li {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .logo-part li a {
+    color: black; /* Ensure links are visible */
+  }
+
+  .logo-part li a:hover {
+    color: #043a53; /* Hover effect */
   }
 
   .hero-part {
@@ -169,6 +213,8 @@ header {
 
   .hero-part .text {
     padding: 0;
+    text-align: center;
+    margin: 20px;
   }
 
   .hero-part h1 {
@@ -202,7 +248,12 @@ header {
     margin: 20px;
     white-space: nowrap;
   }
-
+  .logo-part .hamburger {
+    display: block;
+  }
+  .logo-part .buttons {
+    display: none;
+  }
   .brands-div {
     flex-wrap: wrap;
     gap: 20px;
