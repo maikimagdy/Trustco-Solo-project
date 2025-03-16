@@ -333,4 +333,34 @@ header {
 .ellipse img {
   margin-right: -5px;
 }
+@media (max-width: 768px) {
+  .video-section {
+    padding: 10px;
+  }
+  .video-section img {
+    margin-bottom: -15px;
+  }
+  .vid-div-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .vid-div-container p {
+    width: 100%;
+  }
+  .ellipse {
+    width: 50px;
+    height: 50px;
+    top: 75%;
+  }
+  .ellipse img {
+    width: 15px;
+    margin-top: -11px;
+  }
+}
+@media (max-width: 1024px) {
+  .ellipse {
+    top: 77%;
+  }
+}
 /* video Section */
