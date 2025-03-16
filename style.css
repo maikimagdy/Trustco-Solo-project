@@ -112,6 +112,11 @@ header {
   background-color: #043a53;
   color: white;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> main
 
 /* Responsive Styles */
 @media (max-width: 1024px) {
@@ -174,3 +179,24 @@ header {
     flex-direction: column;
   }
 }
+<<<<<<< HEAD
+=======
+
+/* Trusted-Brands */
+.trusted-brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.brands-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Trusted-Brands */
+>>>>>>> Stashed changes
+>>>>>>> main
