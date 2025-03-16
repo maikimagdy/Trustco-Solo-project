@@ -190,4 +190,36 @@ header {
   gap: 20px;
 }
 
+@media (max-width: 768px) {
+  .trusted-brands {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    white-space: nowrap;
+  }
+
+  .brands-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .brands-div img {
+    width: 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .trusted-brands {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    white-space: nowrap;
+  }
+
+  .brands-div {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .brands-div img {
+    width: 100px;
+  }
+}
 /* Trusted-Brands */
