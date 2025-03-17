@@ -586,3 +586,24 @@ header {
   }
 }
 /* Bridges-Sections */
+
+/* <!-- Numbers Section --> */
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 150px;
+}
+.num-div {
+  line-height: 0.5;
+}
+.num-div p:first-child {
+  color: #043a53;
+  font-size: 50px;
+  font-weight: bold;
+}
+.num-div p:last-child {
+  color: #1e1e1e;
+  font-weight: 700;
+}
+/* <!-- Numbers Section --> */
