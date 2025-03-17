@@ -7,16 +7,17 @@ body {
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 @media (max-width: 1024px) {
   body {
-    width: 104%;
+    width: 101%;
   }
 }
 
 @media (max-width: 768px) {
   body {
-    width: 104%;
+    width: 102%;
   }
 }
 header {
@@ -593,9 +594,12 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 100px 150px;
+  text-align: center;
 }
 .num-div {
   line-height: 0.5;
+  white-space: nowrap;
+  text-align: center;
 }
 .num-div p:first-child {
   color: #043a53;
@@ -605,5 +609,30 @@ header {
 .num-div p:last-child {
   color: #1e1e1e;
   font-weight: 700;
+}
+@media (max-width: 1024px) {
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+
+  .num-div p:first-child {
+    font-weight: 50;
+  }
+  .num-div {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .numbers {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+  .num-div p:first-child {
+    font-weight: 50;
+  }
 }
 /* <!-- Numbers Section --> */
