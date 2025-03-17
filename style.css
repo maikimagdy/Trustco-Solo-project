@@ -282,17 +282,22 @@ header {
 
 /* video Section */
 .video-section {
-  padding: 100px 100px 0 100px;
+  padding: 100px;
+  padding-bottom: 0;
   margin: 50px auto;
   background-color: #043a53;
-  position: relative; /* Make the container a positioning context */
-  display: inline-block; /* Ensure the container wraps around the image */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .vid-div-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  width: 70%;
 }
 .vid-div-container h1:first-child {
   color: white;
