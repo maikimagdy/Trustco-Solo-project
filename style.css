@@ -459,3 +459,57 @@ header {
   }
 }
 /* benefits */
+
+/* Bridges-Sections */
+.bridges {
+  display: flex;
+  gap: 150px;
+  padding-right: 100px;
+}
+.bridge-1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.bridge-1 img:last-child {
+  height: 250px;
+  position: absolute;
+  bottom: 67px;
+  right: -98px;
+}
+.bridge-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.bridge-2 h1 {
+  font-size: 50px;
+  width: 85%;
+}
+.bridge-2 h1 span {
+  color: #92a7b0;
+}
+.bridge-2 button {
+  background-color: #043a53;
+  color: white;
+  width: 30%;
+  border-radius: 55px;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.bridge-2 button:hover,
+.bridge-2 button:active {
+  background-color: #11678f;
+}
+.bridge-2 button span {
+  background: #2a586d;
+  padding: 5px;
+  border-radius: 50%;
+}
+/* Bridges-Sections */
