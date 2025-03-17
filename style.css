@@ -413,5 +413,49 @@ header {
   outline: none;
   border: none;
 }
+@media (max-width: 1024px) {
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
 
+  .benefits div:first-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefit-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .benefits button {
+    width: 25%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .benefits div:first-child {
+    width: 100%;
+    text-align: center;
+  }
+
+  .benefit-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .benefits button {
+    width: 35%;
+    align-self: center;
+  }
+}
 /* benefits */
