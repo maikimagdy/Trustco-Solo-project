@@ -282,7 +282,7 @@ header {
 
 /* video Section */
 .video-section {
-  padding: 100px;
+  padding-top: 100px;
   padding-bottom: 0;
   margin: 50px auto;
   background-color: #043a53;
@@ -297,7 +297,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-  width: 70%;
+  width: 63%;
 }
 .vid-div-container h1:first-child {
   color: white;
