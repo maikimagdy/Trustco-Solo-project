@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   height: 100vh;
   margin: 0;
@@ -636,3 +636,73 @@ header {
   }
 }
 /* <!-- Numbers Section --> */
+
+/* <!-- Meet our founder Section --> */
+.founder {
+  align-items: center;
+  display: flex;
+  padding: 0 100px;
+}
+.founder .txt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+.founder .txt h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.founder .txt div p:first-child {
+  font-weight: bold;
+}
+.founder .txt div {
+  line-height: 0.5;
+}
+.founder .txt div p:last-child {
+  color: #404040;
+}
+.founder .imgs {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.founder .imgs .img2 {
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 5;
+}
+.founder .imgs .img3 {
+  position: absolute;
+  right: 105px;
+  z-index: -1;
+  bottom: 120px;
+}
+.founder button {
+  background-color: #043a53;
+  color: white;
+  border-radius: 55px;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 5px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.founder button:hover,
+.founder button:active {
+  background-color: #11678f;
+}
+
+.founder button span {
+  background: #2a586d;
+  padding: 5px;
+  border-radius: 50%;
+}
+/* <!-- Meet our founder Section --> */
