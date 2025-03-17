@@ -8,7 +8,17 @@ body {
   height: 100vh;
   margin: 0;
 }
+@media (max-width: 1024px) {
+  body {
+    width: 104%;
+  }
+}
 
+@media (max-width: 768px) {
+  body {
+    width: 104%;
+  }
+}
 header {
   background-color: #f2f5f6;
 }
@@ -343,7 +353,7 @@ header {
     padding: 10px;
   }
   .video-section img {
-    margin-bottom: -15px;
+    margin-bottom: -14px;
   }
   .vid-div-container {
     flex-direction: column;
@@ -466,29 +476,36 @@ header {
   gap: 150px;
   padding-right: 100px;
 }
+
 .bridge-1 {
   display: flex;
   align-items: center;
   position: relative;
 }
+
 .bridge-1 img:last-child {
   height: 250px;
   position: absolute;
   bottom: 67px;
   right: -98px;
 }
+
 .bridge-2 {
   display: flex;
   flex-direction: column;
   padding: 50px;
+  line-height: 1.5;
 }
+
 .bridge-2 h1 {
   font-size: 50px;
   width: 85%;
 }
+
 .bridge-2 h1 span {
   color: #92a7b0;
 }
+
 .bridge-2 button {
   background-color: #043a53;
   color: white;
@@ -503,13 +520,68 @@ header {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
+
 .bridge-2 button:hover,
 .bridge-2 button:active {
   background-color: #11678f;
 }
+
 .bridge-2 button span {
   background: #2a586d;
   padding: 5px;
   border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .bridges {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding-right: 0;
+  }
+
+  .bridge-1 img:first-child {
+    max-width: 85%;
+  }
+  .bridge-1 img:last-child {
+    bottom: -75px;
+    right: 136px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .bridge-2 {
+    padding: 20px;
+  }
+
+  .bridge-2 h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .bridge-2 button {
+    width: 25%;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .bridges {
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bridge-1 img:last-child {
+    height: 200px;
+  }
+
+  .bridge-2 h1 {
+    font-size: 30px;
+  }
+
+  .bridge-2 button {
+    width: 45%;
+    align-self: center;
+  }
 }
 /* Bridges-Sections */
