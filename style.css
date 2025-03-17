@@ -511,7 +511,7 @@ header {
 .bridge-2 button {
   background-color: #043a53;
   color: white;
-  width: 30%;
+  width: 12rem;
   border-radius: 55px;
   border: none;
   outline: none;
@@ -666,25 +666,26 @@ header {
   display: flex;
   align-items: center;
   position: relative;
+  min-height: 400px;
 }
 
 .founder .imgs .img2 {
-  height: 250px;
+  height: 15rem;
   position: absolute;
   bottom: 0;
-  left: 5;
+  left: 1rem;
 }
 .founder .imgs .img3 {
   position: absolute;
-  right: 105px;
+  right: 7rem;
   z-index: -1;
-  bottom: 120px;
+  bottom: 10rem;
 }
 .founder button {
   background-color: #043a53;
   color: white;
   border-radius: 55px;
-  width: 70%;
+  width: 20rem;
   border: none;
   outline: none;
   padding: 5px 30px;
@@ -705,4 +706,61 @@ header {
   padding: 5px;
   border-radius: 50%;
 }
+
+@media (max-width: 1024px) {
+  .founder {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+  .founder .imgs {
+    width: 100%;
+    min-height: 300px; /* Keeping your adjusted size for mobile */
+    margin-top: 50px;
+  }
+  .founder .img1 {
+    width: 100%;
+    height: auto;
+  }
+  .founder .imgs .img2 {
+    left: -1rem;
+    bottom: -1rem;
+    height: 17rem;
+  }
+}
+.founder .imgs .img3 {
+  right: 7rem;
+  bottom: 8rem;
+  height: 25rem;
+}
+.founder .txt {
+  padding: 30px 20px;
+}
+.founder button {
+  align-self: center;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .founder {
+    flex-direction: column;
+    padding: 0;
+    text-align: center;
+  }
+  .founder .imgs .img3 {
+    right: 4rem;
+    bottom: 6rem;
+    height: 10rem;
+  }
+  .founder .imgs .img2 {
+    left: -1rem;
+    bottom: -1rem;
+    height: 9rem;
+  }
+}
+
+.founder .txt h1 {
+  font-size: 36px;
+}
+
 /* <!-- Meet our founder Section --> */
