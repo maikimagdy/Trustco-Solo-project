@@ -994,3 +994,78 @@ header {
 }
 
 /* Testimonials  Section*/
+
+/* whats New Section */
+.whats-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 150px;
+  flex-wrap: wrap;
+}
+.whats-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.whats-1 h1 span {
+  color: #043a53;
+}
+.whats-1 h1 {
+  font-size: 50px;
+}
+
+.whats-1 p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.whats-1 img {
+  margin-left: 20px;
+}
+.whats-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.whats-card {
+  border-radius: 8px;
+  box-shadow: 1px 2px 3px gray;
+  transition: transform 0.3s;
+}
+.whats-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.whats-card .whats-img {
+  width: 100%;
+}
+.whats-card a {
+  text-decoration: none;
+  border: none;
+  color: inherit;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-weight: 500;
+}
+.whats-card .read {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.whats-card p:first-of-type {
+  font-weight: bold;
+}
+.whats-card p:first-of-type span {
+  color: #404040;
+  font-weight: 400;
+}
+.text-content {
+  padding: 15px;
+}
+/* whats New Section */
