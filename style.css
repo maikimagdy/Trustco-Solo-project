@@ -1113,9 +1113,7 @@ header {
     padding: 14px;
     flex-grow: 2;
   }
-  .whats-1 h1 {
-    font-size: smaller;
-  }
+
   .whats-1 p {
     display: none;
   }
@@ -1173,3 +1171,84 @@ header {
 }
 
 /* whats New Section */
+
+/* CTA Section */
+.cta-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 0;
+  background: #000;
+  position: relative;
+}
+.cta-1 {
+  /* max-width: 40%; */
+  line-height: 2;
+}
+.cta-1 button {
+  background-color: #f0b73f;
+  color: white;
+  width: 14rem;
+  border-radius: 55px;
+  border: none;
+  outline: none;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
+}
+.cta-banner h1 {
+  font-size: 3rem;
+  color: white;
+}
+.cta-1 button:hover {
+  background-color: #c99a35;
+}
+.cta-banner p {
+  color: #ffffff;
+}
+.cta-1 button span:nth-child(2) {
+  background-color: #c99a35;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-1 button span:nth-child(2) {
+  background: #f0b73f;
+}
+.cta-2 {
+  position: relative;
+  bottom: -4px;
+}
+.cta-2 .girl-img {
+  position: relative;
+  z-index: 1;
+}
+.yellow {
+  position: absolute;
+  /* top: 10px; */
+  right: -2.2rem;
+  z-index: 0;
+  bottom: 0.2rem;
+}
+.black {
+  position: absolute;
+
+  z-index: 0;
+  bottom: 0.3rem;
+  left: -2rem;
+}
+.green {
+  position: absolute;
+  right: 8rem;
+  z-index: 1;
+  bottom: 0.2rem;
+}
+/* CTA Section */
