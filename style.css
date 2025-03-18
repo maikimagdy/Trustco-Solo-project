@@ -764,3 +764,54 @@ header {
 }
 
 /* <!-- Meet our founder Section --> */
+
+/* Testimonials Section */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 150px;
+  background-color: #f2f5f6;
+}
+.testimonial .testi-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testi-1 h1 {
+  font-size: 50px;
+}
+.testi-1 p {
+  text-align: center;
+}
+.testimonial .testi-1 img {
+  margin-left: 20px;
+}
+.testi-2 {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 80px;
+}
+.profile {
+  background-color: white;
+  border-radius: 16px;
+  width: 50%;
+  padding: 15px;
+}
+.profile .profile-div {
+  display: flex;
+  height: 50px;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-div div p:first-child {
+  font-weight: bold;
+}
+.profile-div div p:last-child {
+  color: #404040;
+}
+.testimonial div:last-child {
+  align-self: center;
+}
+/* Testimonials  Section*/
