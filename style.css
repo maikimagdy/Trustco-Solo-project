@@ -17,7 +17,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    width: 102%;
+    width: 110%;
   }
 }
 header {
@@ -1185,6 +1185,7 @@ header {
 .cta-1 {
   /* max-width: 40%; */
   line-height: 2;
+  padding: 10px;
 }
 .cta-1 button {
   background-color: #f0b73f;
@@ -1226,6 +1227,7 @@ header {
 .cta-2 {
   position: relative;
   bottom: -4px;
+  margin: 0 10px;
 }
 .cta-2 .girl-img {
   position: relative;
@@ -1250,5 +1252,143 @@ header {
   right: 8rem;
   z-index: 1;
   bottom: 0.2rem;
+}
+
+/* Extra small screens (max-width: 480px) */
+@media (max-width: 480px) {
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%; /* Matches your 768px example */
+  }
+  .cta-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cta-2 .girl-img {
+    max-width: 100%;
+  }
+  .yellow {
+    width: 20%;
+    right: 1rem;
+  }
+  .cta-banner h1 {
+    font-size: 1.5rem; /* Slightly smaller for smaller screens */
+  }
+  .green {
+    width: 25%;
+    right: 6rem;
+  }
+  .black {
+    width: 25%;
+    left: 0rem;
+  }
+}
+
+/* Medium screens (max-width: 992px) */
+@media (max-width: 992px) {
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    margin: 0 0.2rem;
+  }
+  .cta-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cta-2 .girl-img {
+    max-width: 100%;
+  }
+  .yellow {
+    width: 20%;
+    right: -1rem;
+  }
+  .cta-banner h1 {
+    font-size: 2.5rem;
+  }
+  .green {
+    width: 25%;
+    right: 4.5rem;
+  }
+  .black {
+    width: 25%;
+    left: 0rem;
+  }
+}
+
+/* Large screens (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .cta-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cta-2 .girl-img {
+    max-width: 100%;
+  }
+  .yellow {
+    width: 23%;
+    right: -2rem;
+  }
+  .cta-banner h1 {
+    font-size: 3rem;
+  }
+  .green {
+    width: 25%;
+    right: 8.5rem;
+  }
+  .black {
+    width: 25%;
+    left: -4rem;
+  }
+}
+
+/* Your original medium screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .cta-banner {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+  .cta-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cta-2 .girl-img {
+    max-width: 100%;
+  }
+  .yellow {
+    width: 20%;
+    right: -1rem;
+    height: 65%;
+  }
+  .cta-banner h1 {
+    font-size: 2rem;
+  }
+  .green {
+    width: 25%;
+    right: 4.5rem;
+  }
+  .black {
+    width: 25%;
+    left: -1.5rem;
+  }
 }
 /* CTA Section */
