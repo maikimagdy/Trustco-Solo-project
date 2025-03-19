@@ -1540,4 +1540,21 @@ footer {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .footer-3 {
+    flex-direction: column;
+  }
+  .footer-3 div:nth-child(2) {
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-3 {
+    flex-direction: column;
+  }
+  .footer-3 div:nth-child(2) {
+    gap: 5rem;
+  }
+}
 /* Footer-3 */
