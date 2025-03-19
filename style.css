@@ -1526,6 +1526,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   color: #9db0b8;
+  border-top: 1px solid gray;
 }
 .footer-3 a {
   text-decoration: none;
@@ -1537,5 +1538,16 @@ footer {
 }
 .footer-3 img:last-child {
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .footer-3 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-3 {
+    flex-direction: column;
+  }
 }
 /* Footer-3 */
