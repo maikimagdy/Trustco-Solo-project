@@ -1631,7 +1631,7 @@ footer {
   flex-grow: 1;
 }
 /* helper Section */
-section {
+.form-sec {
   background: #f2f5f6;
 }
 .container {
