@@ -1393,8 +1393,7 @@ header {
 }
 /* CTA Section */
 
-/* Footer */
-/* Footer */
+/* Footer-1 */
 footer {
   margin: 50px;
 }
@@ -1464,4 +1463,25 @@ footer {
     margin-bottom: 20px;
   }
 }
-/* Footer */
+/* Footer-1 */
+
+/* Footer-3 */
+.footer-3 {
+  display: flex;
+  padding: 1rem 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+  color: #9db0b8;
+}
+.footer-3 a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer-3 div:nth-child(2) {
+  display: flex;
+  gap: 1rem;
+}
+.footer-3 img:last-child {
+  cursor: pointer;
+}
+/* Footer-3 */
