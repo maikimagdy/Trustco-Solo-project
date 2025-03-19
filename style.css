@@ -573,18 +573,18 @@ header {
     right: 121px;
     max-height: 175px;
     bottom: -77px;
-    }
-  }
-
-  .bridge-2 h1 {
-    font-size: 30px;
-  }
-
-  .bridge-2 button {
-    width: 45%;
-    align-self: center;
   }
 }
+
+.bridge-2 h1 {
+  font-size: 30px;
+}
+
+.bridge-2 button {
+  width: 45%;
+  align-self: center;
+}
+
 /* Bridges-Sections */
 
 /* <!-- Numbers Section --> */
@@ -628,8 +628,8 @@ header {
   .numbers {
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 20px;        justify-content: space-around;
-
+    padding: 50px 20px;
+    justify-content: space-around;
   }
   .num-div p:first-child {
     font-weight: 50;
@@ -1107,8 +1107,8 @@ header {
     flex-direction: row;
     align-items: center;
     margin-bottom: 50px;
-    justify-content: space-between;        max-width: 372px;
-
+    justify-content: space-between;
+    max-width: 372px;
   }
 
   .whats-card {
