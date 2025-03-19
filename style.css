@@ -1058,7 +1058,9 @@ header {
   align-items: center;
   gap: 20px;
 }
-
+.read a {
+  color: #235369;
+}
 .whats-card p:first-of-type {
   font-weight: bold;
 }
@@ -1542,8 +1544,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+  footer {
+    padding: 10px 0;
+  }
   .footer-3 {
     flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
   }
   .footer-3 div:nth-child(2) {
     gap: 5rem;
@@ -1619,12 +1626,12 @@ footer {
 .help-card a {
   text-decoration: none;
   border: none;
-  color: inherit;
+  color: #235369;
   background: none;
   padding: 0;
   margin: 0 10px;
   font: inherit;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .help-card p {
@@ -1736,3 +1743,41 @@ textarea:focus {
 }
 
 /* Responsive adjustments */
+@media (max-width: 768px) {
+  .help,
+  .help-h {
+    padding: 0;
+  }
+  body {
+    width: 100%;
+  }
+  .cont-foot {
+    padding: 0;
+  }
+  .container,
+  .container h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  .form-group {
+    width: 80%;
+    margin: 0 5px;
+  }
+  textarea {
+    padding: 5px;
+    width: 85%;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  form {
+    padding: 10px;
+  }
+  .help-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+}
