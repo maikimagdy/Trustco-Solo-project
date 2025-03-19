@@ -1411,6 +1411,7 @@ footer {
 }
 
 .details h1 {
+  margin: 0;
   margin-bottom: 1rem;
 }
 .details-container {
@@ -1418,6 +1419,7 @@ footer {
 }
 .mid-div {
   width: 30%;
+  margin-top: 0.5rem;
   color: #585858;
 }
 
