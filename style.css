@@ -1716,7 +1716,8 @@ textarea:focus {
 .checkbox-group {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .checkbox-text {
@@ -1782,7 +1783,18 @@ textarea:focus {
   .help-card {
     width: 100%;
   }
-}
-
-@media (max-width: 480px) {
+  .form-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .form-bottom button {
+    width: 100%;
+  }
+  .form-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .form-bottom button {
+    width: 100%;
+  }
 }
