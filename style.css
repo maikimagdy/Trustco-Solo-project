@@ -1631,6 +1631,7 @@ footer {
   margin: 10px 0;
   flex-grow: 1;
 }
+
 /* helper Section */
 .form-sec {
   background: #f2f5f6;
@@ -1734,5 +1735,8 @@ textarea:focus {
 .submit-btn:hover {
   background-color: #002a42;
 }
-
+.terms {
+  color: #002a42;
+  font-weight: bold;
+}
 /* Responsive adjustments */
