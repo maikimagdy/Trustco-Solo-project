@@ -1789,4 +1789,11 @@ textarea:focus {
   .form-bottom button {
     width: 100%;
   }
+  .form-bottom {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .form-bottom button {
+    width: 100%;
+  }
 }
